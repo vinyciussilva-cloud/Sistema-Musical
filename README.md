@@ -501,12 +501,12 @@ cd Sistema-Musical
 
 Siga este roteiro para conferir tudo o que a atividade pede:
 
-1️⃣ Abra o **`login.html`** e confira o comentário com os nomes da equipe no topo do código
-2️⃣ Clique em **Entrar** com os campos vazios: o navegador deve avisar que o campo é obrigatório
-3️⃣ Navegue pelas 5 telas usando **apenas os links** e use o botão **⬅ Voltar ao Menu**
-4️⃣ Em **Gerenciar Artistas**, tente cadastrar com o **nome vazio**: deve ser bloqueado
-5️⃣ Aperte **F12**, ative o **modo celular** e percorra as telas de novo
-6️⃣ Confirme que as tabelas rolam para o lado no celular, sem quebrar a página
+- 1️⃣ Abra o **`login.html`** e confira o comentário com os nomes da equipe no topo do código
+- 2️⃣ Clique em **Entrar** com os campos vazios: o navegador deve avisar que o campo é obrigatório
+- 3️⃣ Navegue pelas 5 telas usando **apenas os links** e use o botão **⬅ Voltar ao Menu**
+- 4️⃣ Em **Gerenciar Artistas**, tente cadastrar com o **nome vazio**: deve ser bloqueado
+- 5️⃣ Aperte **F12**, ative o **modo celular** e percorra as telas de novo
+- 6️⃣ Confirme que as tabelas rolam para o lado no celular, sem quebrar a página
 
 ---
 
