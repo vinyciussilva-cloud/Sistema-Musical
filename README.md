@@ -8,7 +8,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3e50,50:2980b9,100:3498db&height=260&section=header&text=Sistema%20Musical&fontSize=64&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Cat%C3%A1logo%20de%20artistas%20e%20m%C3%BAsicas%20%E2%80%94%20Front-end%20responsivo&descSize=20&descAlignY=60&descColor=dde1e7" alt="Sistema Musical" width="100%"/>
 
-<a href="https://github.com/vinyciussilva-cloud/Sistema-Musical">
+<a href="https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=3498DB&center=true&vCenter=true&width=680&lines=%F0%9F%8E%A4+Cadastre+seus+artistas+favoritos;%F0%9F%8E%B5+Organize+toda+a+sua+biblioteca+musical;%F0%9F%94%8D+Busque+e+filtre+em+segundos;%F0%9F%93%B1+Funciona+no+computador+e+no+celular;%F0%9F%8F%81+HTML+%2B+CSS+puros%2C+feito+com+carinho" alt="Animação de texto" />
 </a>
 
@@ -27,7 +27,7 @@
 
 <br/>
 
-**[🚀 Começar](#-como-executar)   ·   [🖥️ Telas](#telas)   ·   [🎨 Paleta](#paleta)   ·   [📱 Responsivo](#responsivo)   ·   [👥 Equipe](#equipe)**
+**[🚀 Começar](#-como-executar) · [🖥️ Telas](#telas) · [🎨 Paleta](#paleta) · [📱 Responsivo](#responsivo) · [👥 Equipe](#equipe)**
 
 </div>
 
@@ -85,33 +85,37 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 </div>
 
-> 👇 Clique em cada tela para ver o **esboço visual** e os detalhes.
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%"><a href="prints/login.png"><img src="prints/login.png" alt="Login" width="100%"/></a><br/><sub><b>🔐 Login</b></sub></td>
+<td align="center" width="33%"><a href="prints/index.png"><img src="prints/index.png" alt="Menu" width="100%"/></a><br/><sub><b>🏠 Menu</b></sub></td>
+<td align="center" width="33%"><a href="prints/cadastro_artista.png"><img src="prints/cadastro_artista.png" alt="Cadastro de artista" width="100%"/></a><br/><sub><b>🎤 Artista</b></sub></td>
+</tr>
+<tr>
+<td align="center"><a href="prints/cadastro_musica.png"><img src="prints/cadastro_musica.png" alt="Cadastro de música" width="100%"/></a><br/><sub><b>🎵 Música</b></sub></td>
+<td align="center"><a href="prints/listagem_musicas.png"><img src="prints/listagem_musicas.png" alt="Listagem" width="100%"/></a><br/><sub><b>🎼 Listagem</b></sub></td>
+<td align="center"><sub>🖱️ Clique em qualquer print<br/>para ampliar</sub></td>
+</tr>
+</table>
+
+</div>
+
+> 👇 Clique em cada tela para ver o **print** e os detalhes.
 
 <details>
 <summary><b>1️⃣ &nbsp;🔐 Login</b> — <code>login.html</code></summary>
 
 <br/>
 
-```text
-┌────────────────────────────────────────┐
-│                                        │
-│        ┌──────────────────────┐        │
-│        │  🎵 Sistema Musical  │        │
-│        │  Entre com suas      │        │
-│        │  credenciais         │        │
-│        │                      │        │
-│        │  Usuário             │        │
-│        │  [ Seu usuário     ] │        │
-│        │  Senha               │        │
-│        │  [ ••••••••        ] │        │
-│        │                      │        │
-│        │  [      Entrar     ] │        │
-│        │                      │        │
-│        │  Credenciais iniciais│        │
-│        │  admin · 123         │        │
-│        └──────────────────────┘        │
-└────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="prints/login.png" alt="Tela de login do Sistema Musical" width="380"/>
+
+<sub>📸 Tela de login do Sistema Musical</sub>
+
+</div>
 
 - 💳 Card centralizado na tela, com cabeçalho e dica de acesso
 - ✅ Campos **obrigatórios** (`required`): tentar entrar vazio mostra o aviso do navegador
@@ -125,24 +129,13 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 <br/>
 
-```text
-┌──────────────────────────────────────────────┐
-│                                   [🚪 Sair]  │
-│              🎵 Sistema Musical              │
-│         Olá, admin! O que deseja fazer?      │
-│                                              │
-│     ┌────────────┐     ┌────────────┐        │
-│     │     12     │     │     48     │        │
-│     │  Artistas  │     │  Músicas   │        │
-│     └────────────┘     └────────────┘        │
-│                                              │
-│  ┌────────────┐ ┌────────────┐ ┌───────────┐ │
-│  │     🎤    │  │     🎵    │ │    🎼     │ │
-│  │ Gerenciar  │ │ Cadastrar  │ │Biblioteca │ │
-│  │ Artistas   │ │ Músicas    │ │ Musical   │ │
-│  └────────────┘ └────────────┘ └───────────┘ │
-└──────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="prints/index.png" alt="Menu principal com os atalhos do sistema" width="100%"/>
+
+<sub>📸 Menu principal com os atalhos do sistema</sub>
+
+</div>
 
 - 📊 **Cartões de estatística** com a quantidade de artistas e músicas
 - 🧭 **Três cartões de navegação** (ícone + título + descrição) em grade
@@ -156,40 +149,13 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 <br/>
 
-```text
-┌──────────────────────────────────────────────────────────────────────┐
-│                                                                      │
-│  🎤  Gerenciar Artistas                         [ ← Voltar ao Menu ] │
-│                                                                      │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌────────────────────────────────────────────────────────────────┐  │
-│  │                                                                │  │
-│  │  CADASTRO DE ARTISTA                                           │  │
-│  │  ────────────────────────────────────────────────────────────  │  │
-│  │                                                                │  │
-│  │  Nome do Artista *                Gênero Musical               │  │
-│  │  [ Ex: Djavan................ ]   [ Ex: MPB, Rock............ ] │  │
-│  │                                                                │  │
-│  │  País                             Foto do Artista              │  │
-│  │  [ Ex: Brasil............... ]   [ 📁 Escolher arquivo...... ] │  │
-│  │                                                                │  │
-│  │  ────────────────────────────────────────────────────────────  │  │
-│  │                                                                │  │
-│  │  [ + Cadastrar Artista ]              [ Cancelar edição ]      │  │
-│  │                                                                │  │
-│  └────────────────────────────────────────────────────────────────┘  │
-│                                                                      │
-│  📋  ARTISTAS CADASTRADOS                                            │
-│                                                                      │
-│  ┌────────┬────────────────┬──────────┬──────────┬─────────┬───────┐ │
-│  │  FOTO  │     NOME       │  GÊNERO  │   PAÍS   │ MÚSICAS │ AÇÕES │ │
-│  ├────────┼────────────────┼──────────┼──────────┼─────────┼───────┤ │
-│  │   ▢    │ Djavan         │   MPB    │  Brasil  │   12    │ ✏️ 🎵 │ │
-│  └────────┴────────────────┴──────────┴──────────┴─────────┴───────┘ │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="prints/cadastro_artista.png" alt="Cadastro de artista com tabela de cadastrados" width="90%"/>
+
+<sub>📸 Cadastro de artista com tabela de cadastrados</sub>
+
+</div>
 
 - 🧱 Formulário em **grade de 2 colunas** (vira 1 coluna no celular)
 - ⭐ Campo obrigatório marcado com `*` em vermelho (nome)
@@ -204,22 +170,13 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 <br/>
 
-```text
-┌──────────────────────────────────────────────────────┐
-│ 🎵 Cadastrar Música               [⬅ Voltar ao Menu]│
-├──────────────────────────────────────────────────────┤
-│ ┌──────────────────────────────────────────────────┐ │
-│ │ Título *                 Artista *               │ │
-│ │ [                    ]   [ Selecione...      ▾ ] │ │
-│ │ Álbum                    Gênero                  │ │
-│ │ [                    ]   [                    ]  │ │
-│ │ Link do YouTube          Capa do álbum           │ │
-│ │ [ https://...        ]   [ Escolher arquivo   ]  │ │
-│ │                                                  │ │
-│ │ [➕ Cadastrar Música]                            │ │
-│ └──────────────────────────────────────────────────┘ │
-└──────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="prints/cadastro_musica.png" alt="Tela de cadastro da obra (música)" width="100%"/>
+
+<sub>📸 Tela de cadastro da obra (música)</sub>
+
+</div>
 
 - 🧱 Mesmo padrão visual do cadastro de artista (reaproveita o `styles.css`)
 - ⭐ Campos obrigatórios com validação nativa
@@ -233,21 +190,13 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 <br/>
 
-```text
-┌───────────────────────────────────────────────────────────┐
-│ 🎼 Biblioteca Musical    [⬅ Voltar ao Menu] [➕ Nova]   │
-├───────────────────────────────────────────────────────────┤
-│  Busca geral          Artista            Gênero           │
-│  [ Título, álbum..]   [Todos ▾]          [Todos ▾]        │
-│  [🔍 Filtrar]  [✖ Limpar]                                │
-│                                                           │
-│ ┌──────┬────────┬─────────┬───────┬────────┬──────┬─────┐ │
-│ │ Capa │ Título │ Artista │ Álbum │ Gênero │ YT   │Ações│ │
-│ ├──────┼────────┼─────────┼───────┼────────┼──────┼─────┤ │
-│ │  ▢   │ ...    │ ...     │ ...   │ ...    │ Link │✏️ 🗑️ │
-│ └──────┴────────┴─────────┴───────┴────────┴──────┴─────┘ │
-└───────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="prints/listagem_musicas.png" alt="Biblioteca Musical com filtros e tabela" width="100%"/>
+
+<sub>📸 Biblioteca Musical com filtros e tabela</sub>
+
+</div>
 
 - 🔍 **Busca geral** por título, álbum ou artista
 - 🎚️ Filtros por **artista** e **gênero**, combináveis entre si
@@ -345,7 +294,7 @@ O projeto declara a `viewport` em todas as páginas e adapta o layout com *media
   🖥️ COMPUTADOR                          📱 CELULAR
 ┌───────────────────────────┐          ┌──────────────┐
 │ ┌───────┐ ┌───────┐ ┌───┐ │          │ ┌──────────┐ │
-│ │ 🎤    │ │ 🎵    │ │🎼 │    ───►   │ │   🎤    │ │
+│ │ 🎤    │ │ 🎵    │ │🎼 │ │   ───►   │ │   🎤     │ │
 │ └───────┘ └───────┘ └───┘ │          │ └──────────┘ │
 │ [ campo ]   [ campo ]     │          │ ┌──────────┐ │
 │ [ campo ]   [ campo ]     │          │ │   🎵     │ │
@@ -376,17 +325,18 @@ O projeto declara a `viewport` em todas as páginas e adapta o layout com *media
 <a id="estrutura"></a>
 ## 📂 Estrutura do repositório
 
-Tudo solto na **raiz**, como pede a atividade (sem `.zip`, sem subpastas):
+Os arquivos do sistema ficam soltos na **raiz**, como pede a atividade (sem `.zip`). A pasta `prints/` guarda só as imagens deste README:
 
 ```text
 📦 sistema-musical
- ┣ 📄 login.html              🔐 Tela 1 — Login
- ┣ 📄 index.html              🏠 Tela 2 — Menu principal
+ ┣ 📝 README.md               📖 Você está aqui
  ┣ 📄 cadastro_artista.html   🎤 Tela 3 — Cadastro do criador
  ┣ 📄 cadastro_musica.html    🎵 Tela 4 — Cadastro da obra
+ ┣ 📄 index.html              🏠 Tela 2 — Menu principal
  ┣ 📄 listagem_musicas.html   🎼 Tela 5 — Listagem
+ ┣ 📄 login.html              🔐 Tela 1 — Login
  ┣ 🎨 styles.css              ✨ Único arquivo de estilos
- ┗ 📝 README.md               📖 Você está aqui
+ ┗ 📁 prints/                 📸 Capturas de tela usadas neste README
 ```
 
 <details>
@@ -509,11 +459,11 @@ cd NOME-DO-REPOSITORIO
 - [x] 🎨 Interface das 5 telas
 - [x] 📱 Layout responsivo
 - [x] 🧪 Validação nativa dos formulários
-- [ ] ⚙️ Back-end para salvar os dados
-- [ ] 🗃️ Banco de dados de artistas e músicas
-- [ ] 🔐 Login com autenticação real
-- [ ] 🖼️ Redimensionamento das imagens no servidor
-- [ ] 🔎 Filtros funcionando com os dados salvos
+- [x] ⚙️ Back-end para salvar os dados
+- [x] 🗃️ Banco de dados de artistas e músicas
+- [x] 🔐 Login com autenticação real
+- [x] 🖼️ Redimensionamento das imagens no servidor
+- [x] 🔎 Filtros funcionando com os dados salvos
 
 ---
 
