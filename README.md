@@ -218,8 +218,6 @@ flowchart LR
 
 Toda a identidade visual vive no bloco `:root` do [`styles.css`](styles.css). Mudou a variável, mudou o sistema inteiro. ✨
 
-<div align="center">
-
 | Cor | Variável | Código | Onde aparece |
 |:---:|:---------|:------:|:-------------|
 | ![#2c3e50](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20-2c3e50?style=for-the-badge) | `--primary` | `#2c3e50` | Títulos e destaques |
