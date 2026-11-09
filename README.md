@@ -412,8 +412,6 @@ cd NOME-DO-REPOSITORIO
 <a id="checklist"></a>
 ## ✅ Checklist da atividade
 
-<div align="center">
-
 | Requisito | Status |
 |:----------|:------:|
 | 🗄️ Repositório público no GitHub | ✅ |
