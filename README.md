@@ -158,7 +158,7 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 ```text
 ┌──────────────────────────────────────────────────────┐
-│ 🎤 Gerenciar Artistas              [⬅ Voltar ao Menu]│
+│ 🎤 Gerenciar Artistas             [⬅ Voltar ao Menu]│
 ├──────────────────────────────────────────────────────┤
 │ ┌──────────────────────────────────────────────────┐ │
 │ │ Nome do Artista *        Gênero Musical          │ │
@@ -222,16 +222,16 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 ```text
 ┌───────────────────────────────────────────────────────────┐
-│ 🎼 Biblioteca Musical      [⬅ Voltar ao Menu] [➕ Nova]   │
+│ 🎼 Biblioteca Musical    [⬅ Voltar ao Menu] [➕ Nova]   │
 ├───────────────────────────────────────────────────────────┤
 │  Busca geral          Artista            Gênero           │
 │  [ Título, álbum..]   [Todos ▾]          [Todos ▾]        │
-│  [🔍 Filtrar]  [✖ Limpar]                                 │
+│  [🔍 Filtrar]  [✖ Limpar]                                │
 │                                                           │
 │ ┌──────┬────────┬─────────┬───────┬────────┬──────┬─────┐ │
 │ │ Capa │ Título │ Artista │ Álbum │ Gênero │ YT   │Ações│ │
 │ ├──────┼────────┼─────────┼───────┼────────┼──────┼─────┤ │
-│ │  ▢   │ ...    │ ...     │ ...   │ ...    │ Link │✏️ 🗑️ │ │
+│ │  ▢   │ ...    │ ...     │ ...   │ ...    │ Link │✏️ 🗑️ │
 │ └──────┴────────┴─────────┴───────┴────────┴──────┴─────┘ │
 └───────────────────────────────────────────────────────────┘
 ```
@@ -332,7 +332,7 @@ O projeto declara a `viewport` em todas as páginas e adapta o layout com *media
   🖥️ COMPUTADOR                          📱 CELULAR
 ┌───────────────────────────┐          ┌──────────────┐
 │ ┌───────┐ ┌───────┐ ┌───┐ │          │ ┌──────────┐ │
-│ │ 🎤    │ │ 🎵    │ │🎼 │ │   ───►   │ │   🎤     │ │
+│ │ 🎤    │ │ 🎵    │ │🎼 │    ───►   │ │   🎤    │ │
 │ └───────┘ └───────┘ └───┘ │          │ └──────────┘ │
 │ [ campo ]   [ campo ]     │          │ ┌──────────┐ │
 │ [ campo ]   [ campo ]     │          │ │   🎵     │ │
