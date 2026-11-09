@@ -72,14 +72,13 @@
                         <td>Nome do Artista</td>
                         <td>Nome do Álbum</td>
                         <td>Gênero</td>
-                        <td class="col-youtube">Link</td>
+                        <td class="col-youtube"><a href="#" target="_blank">Assistir</a></td>
                         <td>
                             <div class="action-buttons">
                                 <a href="cadastro_musica.html" class="btn-edit">✏️ Editar</a>
                                 
                                 <form method="post" action="listagem_musicas.html" class="inline-form" onsubmit="return confirm('Deseja realmente excluir esta música?');">
                                     <input type="hidden" name="acao" value="excluir">
-                                    <input type="hidden" name="id" value="">
                                     <button type="submit" class="btn-delete">🗑️</button>
                                 </form>
                             </div>
