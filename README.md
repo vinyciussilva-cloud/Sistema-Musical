@@ -8,7 +8,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3e50,50:2980b9,100:3498db&height=260&section=header&text=Sistema%20Musical&fontSize=64&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Cat%C3%A1logo%20de%20artistas%20e%20m%C3%BAsicas%20%E2%80%94%20Front-end%20responsivo&descSize=20&descAlignY=60&descColor=dde1e7" alt="Sistema Musical" width="100%"/>
 
-<a href="https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO">
+<a href="https://github.com/vinyciussilva-cloud/Sistema-Musical">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=3498DB&center=true&vCenter=true&width=680&lines=%F0%9F%8E%A4+Cadastre+seus+artistas+favoritos;%F0%9F%8E%B5+Organize+toda+a+sua+biblioteca+musical;%F0%9F%94%8D+Busque+e+filtre+em+segundos;%F0%9F%93%B1+Funciona+no+computador+e+no+celular;%F0%9F%8F%81+HTML+%2B+CSS+puros%2C+feito+com+carinho" alt="Animação de texto" />
 </a>
 
@@ -96,7 +96,7 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 ┌────────────────────────────────────────┐
 │                                        │
 │        ┌──────────────────────┐        │
-│        │   🎵 Sistema Musical │        │
+│        │  🎵 Sistema Musical  │        │
 │        │  Entre com suas      │        │
 │        │  credenciais         │        │
 │        │                      │        │
@@ -137,7 +137,7 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 │     └────────────┘     └────────────┘        │
 │                                              │
 │  ┌────────────┐ ┌────────────┐ ┌───────────┐ │
-│  │     🎤     │ │     🎵     │ │    🎼     │ │
+│  │     🎤    │  │     🎵    │ │    🎼     │ │
 │  │ Gerenciar  │ │ Cadastrar  │ │Biblioteca │ │
 │  │ Artistas   │ │ Músicas    │ │ Musical   │ │
 │  └────────────┘ └────────────┘ └───────────┘ │
@@ -157,25 +157,38 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 <br/>
 
 ```text
-┌──────────────────────────────────────────────────────┐
-│ 🎤 Gerenciar Artistas             [⬅ Voltar ao Menu]│
-├──────────────────────────────────────────────────────┤
-│ ┌──────────────────────────────────────────────────┐ │
-│ │ Nome do Artista *        Gênero Musical          │ │
-│ │ [ Ex: Djavan...      ]   [ Ex: MPB, Rock...   ]  │ │
-│ │ País                     Foto do Artista         │ │
-│ │ [ Ex: Brasil...      ]   [ Escolher arquivo   ]  │ │
-│ │                                                  │ │
-│ │ [➕ Cadastrar Artista]   [Cancelar edição]       │ │
-│ └──────────────────────────────────────────────────┘ │
-│                                                      │
-│ 📋 Artistas Cadastrados                              │
-│ ┌──────┬──────────┬────────┬───────┬───────┬───────┐ │
-│ │ Foto │ Nome     │ Gênero │ País  │Músicas│ Ações │ │
-│ ├──────┼──────────┼────────┼───────┼───────┼───────┤ │
-│ │  ▢   │ Djavan   │ MPB    │ Brasil│  12   │✏️ 🎵 │ │
-│ └──────┴──────────┴────────┴───────┴───────┴───────┘ │
-└──────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│  🎤  Gerenciar Artistas                         [ ← Voltar ao Menu ] │
+│                                                                      │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  ┌────────────────────────────────────────────────────────────────┐  │
+│  │                                                                │  │
+│  │  CADASTRO DE ARTISTA                                           │  │
+│  │  ────────────────────────────────────────────────────────────  │  │
+│  │                                                                │  │
+│  │  Nome do Artista *                Gênero Musical               │  │
+│  │  [ Ex: Djavan................ ]   [ Ex: MPB, Rock............ ] │  │
+│  │                                                                │  │
+│  │  País                             Foto do Artista              │  │
+│  │  [ Ex: Brasil............... ]   [ 📁 Escolher arquivo...... ] │  │
+│  │                                                                │  │
+│  │  ────────────────────────────────────────────────────────────  │  │
+│  │                                                                │  │
+│  │  [ + Cadastrar Artista ]              [ Cancelar edição ]      │  │
+│  │                                                                │  │
+│  └────────────────────────────────────────────────────────────────┘  │
+│                                                                      │
+│  📋  ARTISTAS CADASTRADOS                                            │
+│                                                                      │
+│  ┌────────┬────────────────┬──────────┬──────────┬─────────┬───────┐ │
+│  │  FOTO  │     NOME       │  GÊNERO  │   PAÍS   │ MÚSICAS │ AÇÕES │ │
+│  ├────────┼────────────────┼──────────┼──────────┼─────────┼───────┤ │
+│  │   ▢    │ Djavan         │   MPB    │  Brasil  │   12    │ ✏️ 🎵 │ │
+│  └────────┴────────────────┴──────────┴──────────┴─────────┴───────┘ │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 - 🧱 Formulário em **grade de 2 colunas** (vira 1 coluna no celular)
