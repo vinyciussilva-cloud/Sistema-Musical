@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Musical — Sistema Musical</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Cabeçalho da Página -->
+        <div class="page-header-bar">
+            <h2>🎼 Biblioteca Musical</h2>
+            <div class="header-actions">
+                <a href="index.html" class="btn-back">⬅ Voltar ao Menu</a>
+                <a href="cadastro_musica.html" class="btn-primary">➕ Nova Música</a>
+            </div>
+        </div>
+
+        <!-- Seção de Filtros -->
+        <section class="filters">
+            <form method="get" action="listagem_musicas.html" class="filter-form">
+                <div class="filter-group">
+                    <div class="filter-item">
+                        <label for="busca">Busca geral</label>
+                        <input type="text" name="busca" id="busca" placeholder="Título, álbum ou artista…">
+                    </div>
+                    
+                    <div class="filter-item">
+                        <label for="artista">Artista</label>
+                        <select name="artista" id="artista">
+                            <option value="">Todos os artistas</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-item">
+                        <label for="genero">Gênero</label>
+                        <select name="genero" id="genero">
+                            <option value="">Todos os gêneros</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="filter-actions">
+                    <button type="submit" class="btn-primary">🔍 Filtrar</button>
+                    <a href="listagem_musicas.html" class="btn-back">✖ Limpar</a>
+                </div>
+            </form>
+        </section>
+
+        <!-- Tabela de Músicas -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-capa">Capa</th>
+                        <th>Título</th>
+                        <th>Artista</th>
+                        <th>Álbum</th>
+                        <th>Gênero</th>
+                        <th class="col-youtube">YouTube</th>
+                        <th class="col-acoes">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Exemplo de linha da tabela -->
+                    <tr>
+                        <td class="col-capa"></td>
+                        <td>Título da Música</td>
+                        <td>Nome do Artista</td>
+                        <td>Nome do Álbum</td>
+                        <td>Gênero</td>
+                        <td class="col-youtube">Link</td>
+                        <td>
+                            <div class="action-buttons">
+                                <a href="cadastro_musica.html" class="btn-edit">✏️ Editar</a>
+                                
+                                <form method="post" action="listagem_musicas.html" class="inline-form" onsubmit="return confirm('Deseja realmente excluir esta música?');">
+                                    <input type="hidden" name="acao" value="excluir">
+                                    <input type="hidden" name="id" value="">
+                                    <button type="submit" class="btn-delete">🗑️</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
