@@ -48,8 +48,6 @@ O **Sistema Musical** é o front-end de um catálogo onde você cadastra **artis
 
 Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`** com a paleta no `:root`, formulários com validação nativa do navegador e um layout que se adapta do computador ao celular. Os formulários já estão prontos (`method`, `action`, `name`, `required`) para serem ligados a um back-end nas próximas etapas.
 
-<div align="center">
-
 | 🖥️ | 🎨 | 📱 | 🧩 | 🚫 |
 |:---:|:---:|:---:|:---:|:---:|
 | **5 telas** | **1 CSS único** | **2 breakpoints** | **15 variáveis** no `:root` | **0 frameworks** |
