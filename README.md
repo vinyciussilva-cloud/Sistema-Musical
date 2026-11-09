@@ -392,7 +392,7 @@ Os arquivos do sistema ficam soltos na **raiz**, como pede a atividade (sem `.zi
 
 ```text
 📦 sistema-musical
- ┣ 📁 prints                 📸 Capturas de tela usadas neste README
+ ┣ 📁 prints                  📸 Capturas de tela usadas neste README
  ┣ 📄 README.md               📖 Você está aqui
  ┣ 📄 cadastro_artista.html   🎤 Tela 3 — Cadastro do criador
  ┣ 📄 cadastro_musica.html    🎵 Tela 4 — Cadastro da obra
