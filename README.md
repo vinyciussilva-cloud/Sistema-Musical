@@ -138,8 +138,6 @@ erDiagram
 <a id="telas"></a>
 ## 🖥️ As 5 telas
 
-<div align="center">
-
 | # | Tela | Arquivo | Função |
 |:-:|:-----|:--------|:-------|
 | 1️⃣ | 🔐 **Login** | [`login.html`](login.html) | Entrada no sistema com usuário e senha |
