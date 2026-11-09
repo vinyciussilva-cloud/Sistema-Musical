@@ -8,11 +8,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3e50,50:2980b9,100:3498db&height=260&section=header&text=Sistema%20Musical&fontSize=64&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Cat%C3%A1logo%20de%20artistas%20e%20m%C3%BAsicas%20%E2%80%94%20Front-end%20responsivo&descSize=20&descAlignY=60&descColor=dde1e7" alt="Sistema Musical" width="100%"/>
 
-<a href="https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO">
+<a href="https://github.com/vinyciussilva-cloud/Sistema-Musical">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=3498DB&center=true&vCenter=true&width=680&lines=%F0%9F%8E%A4+Cadastre+seus+artistas+favoritos;%F0%9F%8E%B5+Organize+toda+a+sua+biblioteca+musical;%F0%9F%94%8D+Busque+e+filtre+em+segundos;%F0%9F%93%B1+Funciona+no+computador+e+no+celular;%F0%9F%8F%81+HTML+%2B+CSS+puros%2C+feito+com+carinho" alt="Animação de texto" />
 </a>
 
-<br/>
+<br/><br/>
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -23,11 +23,15 @@
 ![Turma](https://img.shields.io/badge/Turma-1ID--DS-2c3e50?style=flat-square)
 ![Telas](https://img.shields.io/badge/Telas-5-3498db?style=flat-square)
 ![Pontos](https://img.shields.io/badge/Atividade-100%20pontos-f1c40f?style=flat-square&logoColor=black)
-![Licença](https://img.shields.io/badge/Uso-Educacional-8e44ad?style=flat-square)
+![Uso](https://img.shields.io/badge/Uso-Educacional-8e44ad?style=flat-square)
 
 <br/>
 
-**[🚀 Começar](#-como-executar) · [🖥️ Telas](#telas) · [🎨 Paleta](#paleta) · [📱 Responsivo](#responsivo) · [👥 Equipe](#equipe)**
+### 🧭 Navegue pelo README
+
+[**✨ Sobre**](#sobre) &nbsp;·&nbsp; [**🖥️ Telas**](#telas) &nbsp;·&nbsp; [**🧭 Fluxo**](#navegacao) &nbsp;·&nbsp; [**🎨 Paleta**](#paleta) &nbsp;·&nbsp; [**📱 Responsivo**](#responsivo)
+<br/>
+[**🧱 Boas práticas**](#praticas) &nbsp;·&nbsp; [**📂 Estrutura**](#estrutura) &nbsp;·&nbsp; [**🚀 Executar**](#como-executar) &nbsp;·&nbsp; [**🔎 Testar**](#testar) &nbsp;·&nbsp; [**👥 Equipe**](#equipe)
 
 </div>
 
@@ -38,23 +42,62 @@
 <a id="sobre"></a>
 ## ✨ Sobre o projeto
 
-> *"A música é a linguagem universal — e todo bom acervo começa com uma boa organização."* 🎶
+> *"A música é a linguagem universal, e todo bom acervo começa com uma boa organização."* 🎶
 
 O **Sistema Musical** é o front-end de um catálogo onde você cadastra **artistas** (os criadores) e **músicas** (as obras) e consulta tudo em uma biblioteca com **busca e filtros**.
 
 Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`** com a paleta no `:root`, formulários com validação nativa do navegador e um layout que se adapta do computador ao celular. Os formulários já estão prontos (`method`, `action`, `name`, `required`) para serem ligados a um back-end nas próximas etapas.
 
+<div align="center">
+
 | 🖥️ | 🎨 | 📱 | 🧩 | 🚫 |
 |:---:|:---:|:---:|:---:|:---:|
 | **5 telas** | **1 CSS único** | **2 breakpoints** | **15 variáveis** no `:root` | **0 frameworks** |
-| login ao catálogo | paleta centralizada | 768px e 600px | cores, sombras, raio e fonte | só HTML e CSS |
+| do login ao catálogo | paleta centralizada | 768px e 600px | cores, sombras, raio e fonte | só HTML e CSS |
 
 </div>
+
+### 🌟 Destaques
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 🔐
+**Login**<br/>
+<sub>Card centralizado com campos obrigatórios e dica de acesso</sub>
+
+</td>
+<td align="center" width="25%">
+
+### 🎤
+**Artistas**<br/>
+<sub>Formulário em grade, upload de foto e tabela de cadastrados</sub>
+
+</td>
+<td align="center" width="25%">
+
+### 🎵
+**Músicas**<br/>
+<sub>Cadastro da obra com artista, álbum, gênero, capa e YouTube</sub>
+
+</td>
+<td align="center" width="25%">
+
+### 🔍
+**Busca**<br/>
+<sub>Filtros combináveis por texto, artista e gênero</sub>
+
+</td>
+</tr>
+</table>
 
 ---
 
 <a id="tema"></a>
 ## 🎼 Tema do catálogo
+
+<div align="center">
 
 | Conceito da atividade | No nosso projeto | Dados cadastrados |
 |:---------------------:|:----------------:|:------------------|
@@ -64,10 +107,42 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 </div>
 
+<details>
+<summary>🗄️ <b>Ver o modelo de dados previsto para o back-end</b></summary>
+
+<br/>
+
+Um artista pode ter várias músicas, e cada música pertence a um artista. É por isso que o botão de excluir artista fica desabilitado enquanto ele ainda tem músicas vinculadas.
+
+```mermaid
+erDiagram
+    ARTISTA ||--o{ MUSICA : "possui"
+    ARTISTA {
+        int id PK
+        string nome
+        string genero
+        string pais
+        string foto
+    }
+    MUSICA {
+        int id PK
+        int artista_id FK
+        string titulo
+        string album
+        string genero
+        string youtube
+        string capa
+    }
+```
+
+</details>
+
 ---
 
 <a id="telas"></a>
 ## 🖥️ As 5 telas
+
+<div align="center">
 
 | # | Tela | Arquivo | Função |
 |:-:|:-----|:--------|:-------|
@@ -78,9 +153,9 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 | 5️⃣ | 🎼 **Listagem** | [`listagem_musicas.html`](listagem_musicas.html) | Biblioteca com filtros e ações |
 
 </div>
-<br>
+<br/>
 
-> 👇 Clique em cada tela para ver o **print** e os detalhes.
+> 👇 Abra cada tela abaixo para ver o **print em tamanho grande** e os detalhes.
 
 <details>
 <summary><b>1️⃣ &nbsp;🔐 Login</b> — <code>login.html</code></summary>
@@ -270,7 +345,7 @@ O projeto declara a `viewport` em todas as páginas e adapta o layout com *media
   🖥️ COMPUTADOR                          📱 CELULAR
 ┌───────────────────────────┐          ┌──────────────┐
 │ ┌───────┐ ┌───────┐ ┌───┐ │          │ ┌──────────┐ │
-│ │ 🎤    │ │ 🎵    │ │🎼 │ │   ───►   │ │   🎤     │ │
+│ │ 🎤    │ │ 🎵   │ │🎼 │ │   ───►   │ │    🎤   │ │
 │ └───────┘ └───────┘ └───┘ │          │ └──────────┘ │
 │ [ campo ]   [ campo ]     │          │ ┌──────────┐ │
 │ [ campo ]   [ campo ]     │          │ │   🎵     │ │
@@ -298,6 +373,24 @@ O projeto declara a `viewport` em todas as páginas e adapta o layout com *media
 
 ---
 
+<a id="praticas"></a>
+## 🧱 Boas práticas aplicadas
+
+<div align="center">
+
+| 🏷️ HTML | 🎨 CSS | ♿ Usabilidade |
+|:--------|:-------|:--------------|
+| `lang="pt-br"` e `charset` UTF-8 | Um único `styles.css` para as 5 telas | `<label for>` ligado a cada campo |
+| `<meta viewport>` em todas as páginas | Paleta em variáveis (`:root`) | `required` nos campos obrigatórios |
+| `<title>` próprio em cada tela | Reset com `box-sizing: border-box` | `placeholder` com exemplos reais |
+| Tags semânticas: `main`, `header`, `nav`, `section` | Layout com **Flexbox** e **CSS Grid** | `autocomplete` e `autofocus` no login |
+| Formulários com `method`, `action` e `name` | Estilos reaproveitados entre telas | Confirmação antes de excluir |
+| Comentários organizando cada bloco | Responsividade com media queries | Botão **Voltar ao Menu** em todas as telas |
+
+</div>
+
+---
+
 <a id="estrutura"></a>
 ## 📂 Estrutura do repositório
 
@@ -305,8 +398,8 @@ Os arquivos do sistema ficam soltos na **raiz**, como pede a atividade (sem `.zi
 
 ```text
 📦 sistema-musical
- ┣ 📁 prints/                 📸 Capturas de tela usadas neste README
- ┣ 📝 README.md               📖 Você está aqui
+ ┣ 📁 prints                 📸 Capturas de tela usadas neste README
+ ┣ 📄 README.md               📖 Você está aqui
  ┣ 📄 cadastro_artista.html   🎤 Tela 3 — Cadastro do criador
  ┣ 📄 cadastro_musica.html    🎵 Tela 4 — Cadastro da obra
  ┣ 📄 index.html              🏠 Tela 2 — Menu principal
@@ -347,7 +440,7 @@ Os arquivos do sistema ficam soltos na **raiz**, como pede a atividade (sem `.zi
 
 <table>
 <tr>
-<td width="60">
+<td width="60" align="center">
 
 ### 1️⃣
 
@@ -357,14 +450,14 @@ Os arquivos do sistema ficam soltos na **raiz**, como pede a atividade (sem `.zi
 **Baixe o projeto**
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-cd NOME-DO-REPOSITORIO
+git clone https://github.com/vinyciussilva-cloud/Sistema-Musical.git
+cd Sistema-Musical
 ```
 
 </td>
 </tr>
 <tr>
-<td>
+<td align="center">
 
 ### 2️⃣
 
@@ -376,7 +469,7 @@ cd NOME-DO-REPOSITORIO
 </td>
 </tr>
 <tr>
-<td>
+<td align="center">
 
 ### 3️⃣
 
@@ -392,7 +485,7 @@ cd NOME-DO-REPOSITORIO
 </td>
 </tr>
 <tr>
-<td>
+<td align="center">
 
 ### 4️⃣
 
@@ -409,35 +502,53 @@ cd NOME-DO-REPOSITORIO
 
 ---
 
-<a id="checklist"></a>
-## ✅ Checklist da atividade
+<a id="testar"></a>
+## 🔎 Como testar (roteiro de verificação)
 
-| Requisito | Status |
-|:----------|:------:|
-| 🗄️ Repositório público no GitHub | ✅ |
-| 📤 Arquivos soltos na raiz (sem `.zip`) | ✅ |
-| 🖥️ 5 telas: login, menu, cadastro do criador, cadastro da obra e listagem | ✅ |
-| 🎨 Um único `styles.css` com a paleta no `:root` | ✅ |
-| 📱 Funciona no computador e no celular | ✅ |
-| 👥 Nomes dos integrantes em comentário no topo do `login.html` | ✅ |
-| 🔗 Navegação entre todas as telas pelos links | ✅ |
-| 🚫 Validação de campo vazio com `required` | ✅ |
+Siga este roteiro para conferir tudo o que a atividade pede:
+
+1️⃣ Abra o **`login.html`** e confira o comentário com os nomes da equipe no topo do código
+2️⃣ Clique em **Entrar** com os campos vazios: o navegador deve avisar que o campo é obrigatório
+3️⃣ Navegue pelas 5 telas usando **apenas os links** e use o botão **⬅ Voltar ao Menu**
+4️⃣ Em **Gerenciar Artistas**, tente cadastrar com o **nome vazio**: deve ser bloqueado
+5️⃣ Aperte **F12**, ative o **modo celular** e percorra as telas de novo
+6️⃣ Confirme que as tabelas rolam para o lado no celular, sem quebrar a página
+
+---
+
+<a id="requisitos"></a>
+## ✅ Requisitos da atividade
+
+| Requisito | Onde está no projeto | Status |
+|:----------|:---------------------|:------:|
+| 🗄️ Repositório público no GitHub | Link entregue no Google Sala de Aula | ✅ |
+| 📤 Arquivos soltos na raiz (sem `.zip`) | Seção [Estrutura](#estrutura) | ✅ |
+| 🖥️ 5 telas: login, menu, cadastro do criador, cadastro da obra e listagem | Seção [As 5 telas](#telas) | ✅ |
+| 🎨 Um único `styles.css` com a paleta no `:root` | Seção 1 do [`styles.css`](styles.css) | ✅ |
+| 📱 Funciona no computador e no celular | Seção 16 do `styles.css` (media queries) | ✅ |
+| 👥 Nomes dos integrantes em comentário no topo do `login.html` | Primeiras linhas do [`login.html`](login.html) | ✅ |
+| 🔗 Navegação entre todas as telas pelos links | [Fluxo de navegação](#navegacao) | ✅ |
+| 🚫 Validação de campo vazio | Atributo `required` nos formulários | ✅ |
 
 </div>
 
 ---
 
 <a id="proximos"></a>
-## 🔮 Próximos passos
+## 🔮 Roadmap
 
-- [x] 🎨 Interface das 5 telas
-- [x] 📱 Layout responsivo
-- [x] 🧪 Validação nativa dos formulários
-- [x] ⚙️ Back-end para salvar os dados
-- [x] 🗃️ Banco de dados de artistas e músicas
-- [x] 🔐 Login com autenticação real
-- [x] 🖼️ Redimensionamento das imagens no servidor
-- [x] 🔎 Filtros funcionando com os dados salvos
+| Etapa | Status |
+|:------|:------:|
+| 🎨 Interface das 5 telas | ![Concluído](https://img.shields.io/badge/-Conclu%C3%ADdo-27ae60?style=flat-square) |
+| 📱 Layout responsivo | ![Concluído](https://img.shields.io/badge/-Conclu%C3%ADdo-27ae60?style=flat-square) |
+| 🧪 Validação nativa dos formulários | ![Concluído](https://img.shields.io/badge/-Conclu%C3%ADdo-27ae60?style=flat-square) |
+| ⚙️ Back-end para salvar os dados | ![Próxima etapa](https://img.shields.io/badge/-Pr%C3%B3xima%20etapa-3498db?style=flat-square) |
+| 🗃️ Banco de dados de artistas e músicas | ![Próxima etapa](https://img.shields.io/badge/-Pr%C3%B3xima%20etapa-3498db?style=flat-square) |
+| 🔐 Login com autenticação real | ![Próxima etapa](https://img.shields.io/badge/-Pr%C3%B3xima%20etapa-3498db?style=flat-square) |
+| 🖼️ Redimensionamento das imagens no servidor | ![Próxima etapa](https://img.shields.io/badge/-Pr%C3%B3xima%20etapa-3498db?style=flat-square) |
+| 🔎 Filtros funcionando com os dados salvos | ![Próxima etapa](https://img.shields.io/badge/-Pr%C3%B3xima%20etapa-3498db?style=flat-square) |
+
+</div>
 
 ---
 
@@ -487,15 +598,23 @@ No navegador, aperte **F12**, clique no ícone de **dispositivo** e escolha um m
 
 <div align="center">
 
-| 👨‍💻 |
-|:---:|
-| **Vinycius Lopes Monteiro da Silva** |
-| Desenvolvimento de Sistemas |
-| Turma 1ID-DS | Turma 1ID-DS |
+<table>
+<tr>
+<td align="center" width="320">
+
+### 👨‍💻
+
+**Vinycius Lopes Monteiro da Silva**<br/>
+<sub>🎓 Desenvolvimento de Sistemas · Turma 1ID-DS</sub><br/><br/>
+[![GitHub](https://img.shields.io/badge/GitHub-vinyciussilva-cloud-181717?style=flat-square&logo=github)](https://github.com/vinyciussilva-cloud)
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-🏫 **SENAI** — Desenvolvimento de Sistemas · 👨‍🏫 **Professor:** Raul Porto Lopes
+🏫 **SENAI** — Desenvolvimento de Sistemas &nbsp;·&nbsp; 👨‍🏫 **Professor:** Raul Porto Lopes
 
 </div>
 
