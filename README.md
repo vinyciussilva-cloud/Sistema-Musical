@@ -95,8 +95,6 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 <a id="tema"></a>
 ## 🎼 Tema do catálogo
 
-<div align="center">
-
 | Conceito da atividade | No nosso projeto | Dados cadastrados |
 |:---------------------:|:----------------:|:------------------|
 | 🎤 **Criador** | **Artista** | nome · gênero musical · país · foto |
