@@ -44,8 +44,6 @@ O **Sistema Musical** é o front-end de um catálogo onde você cadastra **artis
 
 Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`** com a paleta no `:root`, formulários com validação nativa do navegador e um layout que se adapta do computador ao celular. Os formulários já estão prontos (`method`, `action`, `name`, `required`) para serem ligados a um back-end nas próximas etapas.
 
-<div align="center">
-
 | 🖥️ | 🎨 | 📱 | 🧩 | 🚫 |
 |:---:|:---:|:---:|:---:|:---:|
 | **5 telas** | **1 CSS único** | **2 breakpoints** | **15 variáveis** no `:root` | **0 frameworks** |
@@ -57,8 +55,6 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 
 <a id="tema"></a>
 ## 🎼 Tema do catálogo
-
-<div align="center">
 
 | Conceito da atividade | No nosso projeto | Dados cadastrados |
 |:---------------------:|:----------------:|:------------------|
@@ -73,8 +69,6 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 <a id="telas"></a>
 ## 🖥️ As 5 telas
 
-<div align="center">
-
 | # | Tela | Arquivo | Função |
 |:-:|:-----|:--------|:-------|
 | 1️⃣ | 🔐 **Login** | [`login.html`](login.html) | Entrada no sistema com usuário e senha |
@@ -84,23 +78,7 @@ Nesta etapa o foco é a **interface**: HTML semântico, **um único `styles.css`
 | 5️⃣ | 🎼 **Listagem** | [`listagem_musicas.html`](listagem_musicas.html) | Biblioteca com filtros e ações |
 
 </div>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%"><a href="prints/login.png"><img src="prints/login.png" alt="Login" width="100%"/></a><br/><sub><b>🔐 Login</b></sub></td>
-<td align="center" width="33%"><a href="prints/index.png"><img src="prints/index.png" alt="Menu" width="100%"/></a><br/><sub><b>🏠 Menu</b></sub></td>
-<td align="center" width="33%"><a href="prints/cadastro_artista.png"><img src="prints/cadastro_artista.png" alt="Cadastro de artista" width="100%"/></a><br/><sub><b>🎤 Artista</b></sub></td>
-</tr>
-<tr>
-<td align="center"><a href="prints/cadastro_musica.png"><img src="prints/cadastro_musica.png" alt="Cadastro de música" width="100%"/></a><br/><sub><b>🎵 Música</b></sub></td>
-<td align="center"><a href="prints/listagem_musicas.png"><img src="prints/listagem_musicas.png" alt="Listagem" width="100%"/></a><br/><sub><b>🎼 Listagem</b></sub></td>
-<td align="center"><sub>🖱️ Clique em qualquer print<br/>para ampliar</sub></td>
-</tr>
-</table>
-
-</div>
+<br>
 
 > 👇 Clique em cada tela para ver o **print** e os detalhes.
 
@@ -329,14 +307,14 @@ Os arquivos do sistema ficam soltos na **raiz**, como pede a atividade (sem `.zi
 
 ```text
 📦 sistema-musical
+ ┣ 📁 prints/                 📸 Capturas de tela usadas neste README
  ┣ 📝 README.md               📖 Você está aqui
  ┣ 📄 cadastro_artista.html   🎤 Tela 3 — Cadastro do criador
  ┣ 📄 cadastro_musica.html    🎵 Tela 4 — Cadastro da obra
  ┣ 📄 index.html              🏠 Tela 2 — Menu principal
  ┣ 📄 listagem_musicas.html   🎼 Tela 5 — Listagem
  ┣ 📄 login.html              🔐 Tela 1 — Login
- ┣ 🎨 styles.css              ✨ Único arquivo de estilos
- ┗ 📁 prints/                 📸 Capturas de tela usadas neste README
+ ┗ 🎨 styles.css              ✨ Único arquivo de estilos
 ```
 
 <details>
